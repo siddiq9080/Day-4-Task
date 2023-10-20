@@ -1,0 +1,35 @@
+
+
+//for 
+
+const jsonString = '{"name": "Siddiq", "age": 23, "city": "Krishnagiri"}';
+const jsonObject = JSON.parse(jsonString);
+
+for (const key in jsonObject) {
+  if (jsonObject.hasOwnProperty(key)) {
+    console.log(key + ": " + jsonObject[key]);
+  }
+}
+
+
+// for-in
+
+const jsonObject = {
+  name: "Siddiq",
+  age: 23,
+  city: "Krishnagiri"
+};
+
+for (const key in jsonObject) {
+  console.log(key + ": " + jsonObject[key]);
+}
+
+
+//for-of
+
+const jsonString = '{"name": "Siddiq", "age": 23, "city": "Krishnagiri"}';
+const jsonObject = JSON.parse(jsonString);
+
+for (const key of Object.keys(jsonObject)) {
+  console.log(key + ": " + jsonObject[key]);
+}

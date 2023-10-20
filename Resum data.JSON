@@ -1,0 +1,37 @@
+{
+  "name": "Muhamad siddiq N",
+  "title": "Web Developer",
+  "contact": {
+    "email": "muhamad89888@gmail.com",
+    "phone": "9080968153",
+    "website": "https://www.siddiq.com",
+    "location": "Krishnagiri,Tamilnadu "
+  },
+  "summary": " Entry level programmer",
+  "experience": [
+    {
+      
+      "position": " Web Developer",
+      "company": "GUVI pvt ltd.",
+      "experience":"Fresher",
+      "startDate": "August 2023",
+      "endDate": "Present",
+     
+    },
+    
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Application",
+      "University": " Bangalore",
+      "graduationYear": "2023"
+    }
+  ],
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    
+  ],
+  "languages": ["Tami","English","Hindi","Kannada"]
+}
